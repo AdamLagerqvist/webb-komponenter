@@ -1,0 +1,26 @@
+.navbar{
+        min-height: 3rem;
+        background-color: rgb(161, 214, 216);
+        font-size: 1.6rem;
+        width: 100%;
+
+    &-inner{
+        background-color: rgb(161, 214, 216);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav{
+        display: flex;
+        list-style: none;
+    }
+
+    .nav-item{
+        padding-left: 1rem;
+    }
+
+    @media screen and (max-width: $breakpoint-md){
+        flex-direction: column;
+    }
+}

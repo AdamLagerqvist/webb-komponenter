@@ -1,0 +1,32 @@
+$primary-color: rgb(207, 225, 228);
+
+$breakpoint-lg: 48rem;
+$breakpoint-md: div($breakpoint-lg, 2);
+
+@import "utilities/reset";
+@import "utilities/container";
+
+body {
+    background-color: $primary-color;
+}
+
+p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h1, h2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+img{
+    border-radius: 40px;
+    border-style: solid;
+    border-color: rgb(61, 61, 61);
+    border-width: 0.3em;
+    max-width: 40rem;
+    margin-left: 3.7rem;
+}
+
+@import "components/navbar"
